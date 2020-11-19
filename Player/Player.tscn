@@ -9,12 +9,12 @@ radius = 56.8536
 [sub_resource type="AtlasTexture" id=2]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 496, 0, 248, 335 )
+region = Rect2( 248, 0, 248, 335 )
 
 [sub_resource type="AtlasTexture" id=3]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 248, 0, 248, 335 )
+region = Rect2( 496, 0, 248, 335 )
 
 [sub_resource type="AtlasTexture" id=4]
 flags = 4
@@ -25,12 +25,12 @@ region = Rect2( 0, 0, 248, 335 )
 animations = [ {
 "frames": [ SubResource( 2 ) ],
 "loop": true,
-"name": "Right",
+"name": "Straight",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 3 ) ],
 "loop": true,
-"name": "Straight",
+"name": "Right",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 4 ) ],
