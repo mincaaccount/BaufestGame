@@ -32,4 +32,4 @@ scale_amount_random = 0.7
 position = Vector2( 524.819, 456.548 )
 
 [node name="Enemy" parent="." instance=ExtResource( 4 )]
-position = Vector2( 502.708, 118.433 )
+position = Vector2( 514.047, 211.667 )
