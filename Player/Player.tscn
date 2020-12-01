@@ -40,16 +40,21 @@ animations = [ {
 } ]
 
 [node name="Player" type="Area2D"]
+scale = Vector2( 0.9, 0.9 )
 script = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2( 0.9, 0.9 )
 shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.9, 0.9 )
 frames = SubResource( 5 )
 animation = "Straight"
 
 [node name="FiringPosition" type="Position2D" parent="."]
+scale = Vector2( 0.9, 0.9 )
 
 [node name="CenterNode" type="Node2D" parent="FiringPosition"]
 position = Vector2( -1.18921, -14.6479 )
+scale = Vector2( 0.9, 0.9 )
